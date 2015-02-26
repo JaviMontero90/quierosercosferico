@@ -1,0 +1,72 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+
+
+.header {
+  height: 400px;
+  position: relative;
+}
+
+.header__text {
+  position: absolute;
+  width: 50%;
+  top: 150px;
+  line-height: 15px;
+}
+
+header h1 {
+  font-family: Oswald-Bold;
+  text-align: center;
+  font-size: 100px;
+}
+
+header h5 {
+  font-family: Raleway-Light;
+  text-align: center;
+  font-size: 22px;
+}
+
+.header__img {
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  top: 150px;
+}
+
+.header__img img {
+  width: 75%;
+  display: block;
+  position: absolute;
+  right: 200px;
+}
+
+.header__tab {
+  position: fixed;
+  top: 0px;
+  right: 200px;
+  background-color: $color4;
+  width: 200px;
+  height: 70px;
+  opacity: 0.2;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.header__tab p {
+  color: white;
+  font-family: Oswald-Bold;
+  font-size: 12.5px;
+  display: block;
+  position: absolute;
+  left: 60px;
+  width: 125px;
+  bottom: 12px;
+}
+
+.header__tab img {
+  position: absolute;
+  left: 15px;
+  bottom: 27px;
+  width: 35px;
+}
