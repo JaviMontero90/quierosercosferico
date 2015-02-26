@@ -1,0 +1,32 @@
+.hola {
+  height: 500px;
+  position: relative;
+}
+
+.hola__img {
+  width: 35%;
+  left: 160px;
+  top: 100px;
+  display: block;
+  position: absolute;
+}
+
+.hola__text {
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  font-size: 25px;
+  top: 30px;
+  right: 75px;
+}
+
+.hola__text__title {
+  font-family: Oswald-Bold;
+  font-size: 60px;
+  line-height: 71px;
+}
+
+.hola__text__content {
+  font-family: Raleway-Light;
+  font-size: 22px;
+}

@@ -1,6 +1,11 @@
-@import "fonts.scss";
+
+//Partes del HTML
 @import "header.scss";
 @import "options.scss";
+@import "hola.scss";
+//Fuentes
+@import "fonts.scss";
+//Colores
 @import "colors.scss";
 
 
@@ -9,27 +14,6 @@
 // bower:scss
 // endbower
 
-
-.hola {
-  height: 200px;
-  position: relative;
-  margin: 50px;
-}
-
-.hola__imagen {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-}
-
-.hola__texto {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  text-align: center;
-  font-size: 25px;
-  left: 50%;
-}
 
 .tarifas {
   height: 900px;
