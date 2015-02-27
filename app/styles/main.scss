@@ -3,6 +3,7 @@
 @import "header.scss";
 @import "options.scss";
 @import "hola.scss";
+@import "tarifas.scss";
 //Fuentes
 @import "fonts.scss";
 //Colores
@@ -15,11 +16,6 @@
 // endbower
 
 
-.tarifas {
-  height: 900px;
-  background-color: $color1;
-  margin-top: 200px;
-}
 
 .equipo {
   height: 400px;
