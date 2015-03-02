@@ -2,7 +2,7 @@
 @import "fonts.scss";
 
 .tarifas {
-  height: 900px;
+  height: 1100px;
   background-color: $color1;
   margin-top: 200px;
   position: relative;
@@ -26,21 +26,54 @@
   left: 500px;
 }
 
-.tarifas__table__conecta {
+.tarifas__table {
   display: block;
-  top: 250px;
-  left: 200px;
+  left: 150px;
   color: white;
   position: absolute;
+  border-collapse: collapse;
 }
 
-.tarifas__table__beta {
-  display: block;
-  top: 350px;
-  left: 200px;
-  color: white;
-  position: absolute;
+.tarifas__table:nth-child(2)  {
+  top: 225px;
 }
+
+.tarifas__table:nth-child(3) {
+  top: 350px;
+}
+
+.tarifas__table:nth-child(4) {
+  top: 460px;
+}
+
+.tarifas__table:nth-child(5) {
+  top: 620px;
+}
+
+.tarifas__table:nth-child(6) {
+  top: 730px;
+}
+
+.tarifas__table:nth-child(7) {
+  top: 840px;
+}
+
+.tarifas__table:nth-child(8) {
+  top: 225px;
+  left: 700px;
+}
+
+.tarifas__table:nth-child(9) {
+  top: 350px;
+  left: 700px;}
+
+.tarifas__table:nth-child(10) {
+  top: 500px;
+  left: 700px;}
+
+.tarifas__table:nth-child(11) {
+  top: 650px;
+  left: 700px;}
 
 .tarifas__table__title {
   background-color: $color3;
@@ -54,9 +87,21 @@
   color: $color4;
   line-height: 5px;
   font-family: Raleway-Light;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 20px 0px 20px;
   border-right: 20px solid $color1;
-  font-size: 10px;
+  font-size: 11px;
+  position: relative;
+}
+
+.tarifas__table_description__triangleRight {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid $color3;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  left: 0px;
+  top: 40%;
 }
 
 .tarifas__table__rate {
@@ -92,18 +137,16 @@
 }
 
 .tarifas__table__rate__euros {
-  font-size: 35px;
-  position: absolute;
-  width: 65px;
-  left: 20px;
-  top: 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  line-height: 0px;
 }
 
-.tarifas__table__rate__iva {
-  font-size: 10px;
-  width: 65px;
-  height: 10px;
-  top: 42.5px;
-  left: 20px;
+.tarifas__text {
   position: absolute;
+  left: 700px;
+  color: white;
+  top: 840px;
+  font-family: Raleway-Light;
 }

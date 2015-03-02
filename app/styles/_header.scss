@@ -36,8 +36,8 @@ header h5 {
 }
 
 .header__tab {
-  position: fixed;
-  top: 0px;
+  position: absolute;
+  top: -8px;
   right: 200px;
   background-color: $color4;
   width: 200px;
