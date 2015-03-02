@@ -26,9 +26,17 @@
   left: 500px;
 }
 
-.tarifas__table {
+.tarifas__table__conecta {
   display: block;
   top: 250px;
+  left: 200px;
+  color: white;
+  position: absolute;
+}
+
+.tarifas__table__beta {
+  display: block;
+  top: 350px;
   left: 200px;
   color: white;
   position: absolute;
@@ -37,21 +45,65 @@
 .tarifas__table__title {
   background-color: $color3;
   font-family: Oswald-Regular;
-  padding: 0px 40px 0px 40px;
-}
+  text-align: center;
+  width: 150px;
+  }
 
 .tarifas__table__description {
   background-color: white;
   color: $color4;
-  line-height: 10px;
+  line-height: 5px;
   font-family: Raleway-Light;
   padding: 0px 25px 0px 25px;
   border-right: 20px solid $color1;
+  font-size: 10px;
 }
 
 .tarifas__table__rate {
-  background-color: $color4;
-  font-size: 50px;
   font-family: Raleway-Bold;
-  padding: 0px 25px 0px 25px;
+  width: 100px;
+  height: 70px;
+  background-color: $color4;
+  position: relative;
+}
+
+.tarifas__table__rate__corner_right {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid $color1;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid $color1;
+  top: 0px;
+  right: 0px;
+}
+
+.tarifas__table__rate__corner_left {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid $color1;
+  border-left: 10px solid $color1;
+  border-right: 10px solid transparent;
+  bottom: 0px;
+  left: 0px;
+}
+
+.tarifas__table__rate__euros {
+  font-size: 35px;
+  position: absolute;
+  width: 65px;
+  left: 20px;
+  top: 5px;
+}
+
+.tarifas__table__rate__iva {
+  font-size: 10px;
+  width: 65px;
+  height: 10px;
+  top: 42.5px;
+  left: 20px;
+  position: absolute;
 }
